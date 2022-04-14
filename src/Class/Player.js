@@ -4,6 +4,10 @@ class Player {
         this.dimension = dimension
         this.speed = speed
         this.color = color
+        this.wood = 0
+        this.food = 0
+        this.stone = 0
+        this.hunger = 0
     }
 
     draw() {
