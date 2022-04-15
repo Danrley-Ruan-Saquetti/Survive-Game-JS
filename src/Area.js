@@ -7,9 +7,10 @@ class Area {
     }
 
     draw() {
+        ctx.font = `${TEXT_FONT_SIZE()}px monospace`
         this.campfire.draw()
-        this.forest.draw()
         this.stone.draw()
         this.farm.draw()
+        this.forest.draw()
     }
 }

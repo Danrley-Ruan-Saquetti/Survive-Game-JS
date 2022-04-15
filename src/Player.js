@@ -1,13 +1,13 @@
 class Player {
-    constructor(position, dimension, speed, color) {
+    constructor(position, dimension, speed, color, wood, food, stone, hunger) {
         this.position = position
         this.dimension = dimension
         this.speed = speed
         this.color = color
-        this.wood = 0
-        this.food = 0
-        this.stone = 0
-        this.hunger = 0
+        this.wood = wood
+        this.food = food
+        this.stone = stone
+        this.hunger = hunger
     }
 
     draw() {

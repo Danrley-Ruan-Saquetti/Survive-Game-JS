@@ -10,15 +10,46 @@
 </head>
 
 <body>
+    <div id="ui-game">
+        <div id="ui-player">
+            <div id="wood-content">
+                <div>
+                    <p><span>Madeira:</span> <span id="wood">0</span></p>
+                </div>
+            </div>
+            <div id="stone-content">
+                <div>
+                    <p><span>Pedra:</span> <span id="stone">0</span></p>
+                </div>
+            </div>
+            <div id="hunger-content">
+                <div>
+                    <p><span>Fome:</span> <span id="hunger">0</span></p>
+                </div>
+            </div>
+            <div id="food-content">
+                <div>
+                    <p><span>Comida:</span> <span id="food">0</span></p>
+                </div>
+            </div>
+        </div>
+        <div id="ui-campfire">
+            <div id="heart-content">
+                <div>
+                    <p><span>Vida - CampFire:</span> <span id="heart">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <canvas id="canvas"></canvas>
 
-    <script src="src/Class/Areas/Farm.js"></script>
-    <script src="src/Class/Areas/Stone.js"></script>
-    <script src="src/Class/Areas/Forest.js"></script>
-    <script src="src/Class/Areas/CampFire.js"></script>
-    <script src="src/Class/Player.js"></script>
-    <script src="src/Class/Area.js"></script>
-    <script src="src/Game.js"></script>
+    <script src="src/Areas/Stone.js"></script>
+    <script src="src/Areas/Farm.js"></script>
+    <script src="src/Areas/Forest.js"></script>
+    <script src="src/Areas/CampFire.js"></script>
+    <script src="src/Player.js"></script>
+    <script src="src/Area.js"></script>
     <script src="main.js"></script>
 </body>
 
